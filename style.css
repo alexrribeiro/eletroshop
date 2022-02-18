@@ -244,4 +244,38 @@ footer {
         font-size: 18px;
         margin-bottom: 15px;
     }
+
+    footer  {
+        height: 200px;
+        display: flex;
+        align-content: flex-start;
+    }
+
+    .rodape {
+        flex-direction: column;
+        justify-content: flex-start;
+        position: relative;
+        top: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .apresentacao {
+        width: 60%;
+    }
+
+    .lista-produtos li {
+        margin: 10px 1.0%;
+    }
+
+    footer {
+        display: flex;
+        height: 120px;
+    }
+
+    .rodape {
+        position: relative;
+        top: 10px;
+    }
 }
